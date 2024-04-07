@@ -38,6 +38,10 @@ Create an HTML page for your Django project.
 **Create HTML Template**: Create a new directory named `templates` inside the `Dockerize_Django_App` directory. Then create a file named `index.html` and paste your HTML code into it.
 
 ```
+mkdir templates && cd templates && vi index.html
+```
+
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
