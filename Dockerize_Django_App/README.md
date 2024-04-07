@@ -223,7 +223,15 @@ Build the Docker image:
 ```
 docker build -t my_django_app .
 ```
-
+```
+docker login
+```
+```
+docker tag my_django_app mjcmathew/my_django_app:v1.0.0
+```
+```
+docker push mjcmathew/my_django_app:v1.0.0
+```
 ### Run Docker Container
 
 Run a Docker container using the built image:
