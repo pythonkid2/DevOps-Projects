@@ -186,6 +186,11 @@ Access the Django app in your web browser at `http://<your_instance_public_ip>:8
 
 ## Step 5: Dockerize Django App
 
+create requirements.txt
+
+```
+echo "Django" >> requirements.txt
+```
 ### Create Dockerfile
 
 Create a Dockerfile in the project root directory (`Dockerize-Django-App`) with the following content:
